@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Berenice Martinez Cardoso">
+    <meta name="description" content="Recetas Navideñas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Berenice|Recetas Navideñas</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-verde" href="imagenes/verde.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/verde.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-recetas">Ensaldas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Postres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/corona.jpg" alt="corona">
+        <h1>Recetas Navideñas</h1>
+       <h2>Muy delicosas y facíles de hacer</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/pavo.jpg" alt="pavo">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Aprende a hacer recetas para estos días festivos</h2>
+        <p class="seccion-texto">Probablemente la fecha más bonita de todo el año, aquí nos reunimos con amigos y con familiares para contar anécdotas inolvidables y apreciar la unión con nuestros seres queridos. No por ser Navidad significa que subiremos de peso, todo se trata de balance y por eso tenemos esta categoría. Disfruta de los alimentos más ricos para estas fechas y sorprende a toda tu familia, la reunión con tus seres queridos es lo más importante pero una deliciosa y balanceada cena hará que se vuelva un éxito.</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="imagenes/Queso crema navideño.mp4" width="250" height="300" text-aligen="" autoplay controls>Queso crema navideño</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          
+          <!-- primera -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/z.jpg" alt="z">
+            <p class="experiencia-titulo">Ensalada de zanahoria</p>
+            <p> <strong>INGREDIENTES:</strong></p>
+            <p><ul>
+              <p>2 Latas de Media Crema NESTLÉ®</p>
+              <p>1 Cucharada de esencia de vainilla</p>
+              <p>1 Leche Condensada LA LECHERA® (209 g)</p>
+              <p>1/2 Lata de piña en almíbar escurrida (400 g)</p>
+              <p>1/2 Taza de Almíbar de piña</p>
+              <p>1/2 Taza de nuez picada</p>
+              <p>1/2 Taza de pasas</p>
+              <div>
+              <p><strong>¡A COCINAR!</strong></p>
+              <p>1. Mezcla la Media Crema NESTLÉ®, la esencia de vainilla, la Leche Condensada LA LECHERA®, las zanahorias, la piña, la nuez y las pasas.</p>
+              <p>2. Cubre con plástico adherente y refrigera por 1 hora.</p>
+              <p>3. Sirve en vasos y ofrece.</p>
+            </div>
+              </ul></p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">INFORMACIÓN NUTRICIONAL</span>
+              <p>260.8 kcal = 1,092kj /por porción</p>
+              <span class="badge text-bg-primary">CONSEJO NUTRITIONAL</span>
+              <p>La zanahoria aporta vitamina A.</p>
+              <span class="badge text-bg-primary">CONSEJO CULINARIO</span>
+              <p>Si deseas puedes añadir manzana picada a la preparación.</p>
+            </div>
+          </div>
+          <!-- segunda receta -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/e.jpg" alt="e">
+            <p class="experiencia-titulo">Ensalada navideña de uvas y queso</p>
+            <p> <strong>INGREDIENTES:</strong></p>
+            <p><ul>
+              <p>100 gramos de queso crema</p>
+              <p>1/2 taza de leche evaporada</p>
+              <p>3 cucharadas de Hellmanns Clásica Mayonesa</p>
+              <p>4 manzanas rojas delicious cortadas en cubos</p>
+              <p>1 1/2 taza de uvas</p>
+              <p>1/4 taza de apio cortado en rodajas</p>
+              <p>1 taza de piña en lata cortada en triángulos</p>
+              <p>1/2 taza de nuez pecanera troceada</p>
+              <div>
+
+              <p><strong>¡A COCINAR!</strong></p>
+              <p>1. Primero vamos a preparar el aderezo de la ensalada. 
+                Coloca en la licuadora el queso crema, la leche evaporada y la Hellmann's® Clásica Mayonesa. 
+                Vamos a moler hasta obtener una especie de salsita cremosa y espesa, reserva.</p>
+
+              <p>2. En un bowl grande coloca las manzanas troceadas, las uvas (enteras o en mitades, tú eliges), 
+                las rodajas de apio, la piña cortada y la nuez. Finalmente agrega el aderezo que preparamos 
+                e integra perfectamente bien los ingredientes.</p>
+
+              <p>3. Cuando esté lista, lleva a refrigeración durante al menos una hora para asentar los sabores. 
+                Te recomendamos servirla fría, le dará un toque fresco a cualquier corte de carne. ¡A disfrutar!</p>
+            </div>
+
+              </ul></p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">ENERGÍA</span>
+              <p>1.8 K kcal </p>
+              <span class="badge text-bg-primary">PROTEINA</span>
+              <p>30g</p>
+              <span class="badge text-bg-primary">SODIO</span>
+              <p>2.2 k mg</p>
+            </div>
+          </div>
+          <!-- tercer receta -->
+          <div class="columna col-12 col-md-4">
+            <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/b.jpg" alt="b">
+            <p class="experiencia-titulo">Ensalada navideña de betabel</p>
+            <p> <strong>INGREDIENTES:</strong></p>
+            <p><ul>
+              <p>3 betabeles cocidos y en cortado en cubos</p>
+              <p>1 jícama pelada y cortado en cubos</p>
+              <p>1/2 taza de jugo de naranja</p>
+              <p>1/2 taza de jugo de mandarina</p>
+              <p>1 cucharada de azúcar</p>
+              <p>1 taza de cacahuates sin sal tostado</p>
+              <div>
+              <p><strong>¡A COCINAR!</strong></p>
+              <p>1. En una ensaladera mezclar el betabel, jícama, los jugos de cítricos y el azúcar</p>
+              <p>2. Al momento de servir, añadir los cacahuates, mezclar nuevamente y disfrutar.</p>
+            </div>
+              </ul></p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">CARBOIDRATOS</span>
+              <p>155 g</p>
+              <span class="badge text-bg-primary">FIBRA</span>
+              <p>55 g</p>
+              <span class="badge text-bg-primary">ZINC</span>
+              <p>7.2 mcg</p>
+              <span class="badge text-bg-primary">VITAMINA A</span>
+              <p>304 IU</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">PLATILLOS MÉXICANOS</h2>
+      <h3 class="seccion-descripcion">QUE NO DEBEN FALTAR EN ESTAS FECHAS NAVIDEÑAS</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/tamal.jpg" alt="tamal">
+              <p>Los tamales son una comida muy representativa no solo de la Navidad, sino también de la gastronomía mexicana en general,
+                pues se comen durante todo el año.</p> 
+              <p>Aunque los ingredientes y la preparación suelen variar según las tradiciones familiares
+                y regionales, pueden prepararse con una base de masa de maíz y se rellenan de diferentes guisos, vegetales y salsas.</p> 
+              <p>El producto resultante es envuelto en hojas secas de maíz o de plátano y son cocinados al vapor.</p>
+            
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ponche.jpg" alt="ponche">
+                            <p>El origen del nombre proviene del hindi “pãc”, que significa cinco, correspondiente al número de ingredientes 
+                              que originalmente lo componían (aguardiente de vino de palma, azúcar, limón, agua y té); posteriormente se derivó 
+                              del inglés “punch” una vez introducido en Inglaterra.</p>
+                            <p>Algunas de las bebidas que no pueden faltar en Navidad y 
+                              las posadas son el ponche (a base de frutas de temporada) y el atole, 
+                              sobre todo el de guayaba y el de arroz con canela. </p>
+            
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/pozole.jpg" alt="pozole">
+                            <p>La especialidad de este plato es que los granos de maíz utilizados son de una variedad particular de grano grande
+                               llamado cacahuazintle, y que tales granos son cocidos en una solución ligera de agua con hidróxido de calcio (cal) 
+                               conocida como nixtamalización, el mismo proceso utilizado en el continente americano para la elaboración de la tortilla.</p>
+                            <p>Plato con rábanos, lechuga, limón y tostadas de tortilla de maíz, elementos con los que se suele condimentar o acompañar el pozole.</p>
+             
+            </div>
+          </div>
+       
+      <a href="https://www.canuto.com.mx/blogs/tips-para-tu-pmprar#:~:text=Adoptar%20a%20un%20perro%20es,ofreces%20mejores%20condiciones%20de%20vida." target="_blank" rel="noopener noreferrer">
+     
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://es.wikipedia.org/wiki/Pozole" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Conoce más sobre el pozole
+            </li>
+          </a>
+          <a href="https://www.gob.mx/siap/articulos/el-ponche-entre-sus-ingredientes-mucha-calidad-mexicana?idiom=es#:~:text=El%20origen%20del%20nombre%20proviene,una%20vez%20introducido%20en%20Inglaterra." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Origen del ponche
+            </li>
+          </a>
+          <a href="https://www.micasarevista.com/recetas-trucos-cocina/g113537/postres-para-navidad/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              60 postres de navidad
+            </li>
+          </a>
+          <a href="https://www.recetasnestle.com.mx/categorias/navidad" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Deliciosas recetas para navidad
+            </li>
+          </a>
+          <a href="https://www.recetasnestle.com.mx/recetas/macarrones-chocolate" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Macarrones de chocolate
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">¡PRUEBA CON ESTOS DELICIOSOS POSTRES!</h2>
+      <h3 class="seccion-descripcion">Endulzate la vida</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/baston.jpg" alt="baston">
+              <p class="testimonio-texto">Galleta de bastón</p>
+              <div class="testimonio-info">
+                <p class="cliente">INGREDIENTES:</p>
+                <p class="cargo"> 3 tazas de harina
+                  - 1 cucharadita de levadura en polvo
+                  - 1/2 cucharadita sal
+                  - 1 taza de mantequilla, ablandada
+                  - 1 taza de azúcar
+                  - 1 huevo grande
+                  - 1 cuch. de leche
+                  - 1 cucharadita de extracto de menta
+                  - colorante rojo para la comida
+                  - cristales de azúcar para decorar</p>        
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ginebra.jpg" alt="ginebra">
+              <p class="testimonio-texto">Gingerbread Blondies</p>
+              <div class="testimonio-info">
+                <p class="cliente">INGREDIENTES:</p>
+                <p class="cargo">- 1/2 taza de mantequilla derretida, ligeramente enfriada
+                  - 1 taza de azúcar moreno
+                  - 1/4 taza de melaza
+                  - 2 huevos grandes
+                  - 1 taza de harina
+                  - 1/2 cucharadita de levadura en polvo
+                  - 3/4 cucharadita sal
+                  - 1 cucharadita de extracto puro de vainilla
+                  - 1 cucharadita de canela molida
+                  - 1 cucharadita de jengibre molido
+                  - 1/4 cucharadita de clavo molido
+                  - 1/4 cucharadita de nuez moscada
+                  - 2 cuch. de azúcar glas, para espolvorear</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/brownies.jpg" alt="brownies">
+              <p class="testimonio-texto">Brownies de árbol de Navidad </p>
+              <div class="testimonio-info">
+                <p class="cliente">INEGREDIENTES:</p>
+                <p class="cargo">- 1 paquete de mezcla para brownie, más los ingredientes indicados en la caja
+                  - 3/4 taza de mantequilla, ablandada
+                  - 4 tazas de azúcar glas
+                  - 1 cucharadita de extracto de vainilla
+                  - 2 cuch. de nata
+                  - una pizca de sal
+                  - colorante alimentario verde
+                  - 6 bastones de caramelo
+                  - bolitas de azúcar, para decorar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡CONTACTAME!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Sigueme para que podamos compartir más recets deliciosas y fáciles de hacer.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="beremart_04@outlook.es">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/curso.jpg" alt="curso">
+      <p class="footer-texto text-center">INSCRIBETE A UN CURSO DE COCINA<br>Aprendamos a cocinar</p>
+      <a href="https://aprende.com/landing/emprende-cocina-internacional-latam/?utm_source=google&utm_medium=cpc&utm_campaign=MX-COCINA&utm_content=&utm_term=curso%20de%20cocina&device=c&ad_position=&ad_
+      id=669700099639&match_type=b&network=g&adgroupid=156082919487&gad_source=1&gclid=EAIaIQobChMIrZvc5ueCgwMV0QKtBh2pHwbPEAAYAiAAEgLj-PD_BwE" target="_blank" rel="noopener noreferrer">
+        <li class="list-group-item">
+          CURSO DE COCINA
+        </li>
+      </a>
+
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/berenice-martinez-cardoso-27b5072a0" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Berenice Martinez Cardoso </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
